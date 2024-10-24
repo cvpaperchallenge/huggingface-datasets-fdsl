@@ -3,10 +3,10 @@ services:
     image: ci
     build:
       args:
-        - BASE_IMAGE=ubuntu:20.04
-        - PYTHON_VERSION=3.12
-        - RUN_POETRY_INSTALL_AT_BUILD_TIME=true
+        - UID=${HOST_UID-1000}
+        - GID=${HOST_GID-1000}
         - PROJECT_NAME=${PROJECT_NAME_ENV}
+        - RUN_POETRY_INSTALL_AT_BUILD_TIME=true
       context: ../../
       dockerfile: environments/Dockerfile
     tty: true
