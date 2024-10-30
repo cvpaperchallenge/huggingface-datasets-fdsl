@@ -39,7 +39,7 @@ task_categories: image-classification
 
 ## Dataset Description
 
-- **Homepage:** https://masora1030.github.io/Visual-Atoms-Pre-training-Vision-Transformers-with-Sinusoidal-Waves/
+- **Homepage:** https://masora1030.github.io/Visual-Atoms-Pre-training-Vision-Transformers-with-Sinusoidal-Waves
 - **Repository:** https://github.com/masora1030/CVPR2023-FDSL-on-VisualAtom
 - **Paper:** https://arxiv.org/abs/2303.01112
 - **Leaderboard:** NA
@@ -121,7 +121,7 @@ The FDSL dataset category, including VisualAtom, marks an important new paradigm
 
 ### Other Known Limitations
 
-TBD
+In comparison to pre-trained models using supervised or self-supervised learning on real images, models trained with FDSL generally exhibit slower convergence during the fine-tuning phase.
 
 ## Additional Information
 
