@@ -43,7 +43,7 @@ task_categories: image-classification
 - **Repository:** https://github.com/masora1030/CVPR2023-FDSL-on-VisualAtom
 - **Paper:** https://arxiv.org/abs/2303.01112
 - **Leaderboard:** NA
-- **Point of Contact:** Sora Takashima: soraemonpockt@rio.gsic.titech.ac.jp
+- **Point of Contact:** Sora Takashima: soraemonpockt@gmail.com
 
 ### Dataset Summary
 
